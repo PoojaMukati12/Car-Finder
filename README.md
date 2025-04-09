@@ -1,12 +1,49 @@
-# React + Vite
+# 🚗 Car Finder Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive React.js web application for browsing, filtering, and saving cars to a wishlist. This project uses a **mock API (json-server)** and is styled with **TailwindCSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 Search cars by name
+- 🏷️ Filter by brand, price range, and fuel type
+- ❤️ Add/Remove cars to/from wishlist (LocalStorage)
+- 🔄 Real-time UI updates without page reloads
+- 📦 Fetch data from a mock API
+- 🎨 Interactive UI with TailwindCSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **TailwindCSS**
+- **json-server** (mock API)
+- **LocalStorage** (for wishlist)
+
+  # Live Demo [Click](https://car-finder-ivory.vercel.app/)
+
+---
+
+
+## 🚀 Setup Instructions
+
+### 1. Clone the repository
+
+
+git clone 
+cd car-finder-app
+
+### 2. Install dependencies
+npm install
+
+### 3. Start the mock API
+Make sure json-server is installed globally:
+npm install -g json-server
+
+Then start the mock API:
+json-server --watch db.json --port 5000
+
+### 4. Start the React App
+npm start
