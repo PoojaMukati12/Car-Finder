@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Toyota Corolla",
+      "brand": "Toyota",
+      "price": 18000,
+      "fuelType": "Petrol",
+      "seatingCapacity": 5,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "brand": "Honda",
+      "price": 22000,
+      "fuelType": "Diesel",
+      "seatingCapacity": 5,
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
+  
